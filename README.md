@@ -8,6 +8,7 @@ PDF available [here](./docs/images/Udacity_Supplychain_testing.png)
 - Truffle: 5.5.13
 - Solidity: ^0.8.1
 - @truffle/hdwallet-provider: 6.14.16 (used for deploying to rospten to provide wallet mnemonics)
+- truffle-assert: 6.14.16 (Used for checking role based access in unit testing)
 
 ## Unit test and transaction history checks
 ![Unit test](./docs/images/Udacity_Supplychain_testing.png)
@@ -15,9 +16,9 @@ PDF available [here](./docs/images/Udacity_Supplychain_testing.png)
 ![Transaction history](./docs/images/transactionhistory.png)
 
 ## Transaction ID and contract address
-- transaction ID:0x5f06d76812e6f22e221e12ffef0b131f00415e2deeb7ad7a031c2a05f332fbbc
-- Contract address: 0xa226755C5ea09c3f7b4984ce2353D3e7C5aB34B0
-(https://ropsten.etherscan.io/address/0xa226755c5ea09c3f7b4984ce2353d3e7c5ab34b0)
+- transaction ID:0xc54dd65cfd8be012c1ef1a67d944c4ded6f45bfb8aaf7819f6e755391e363dff
+- Contract address: 0xB1126df0c32Db5dd98E05aA32cE452584414c4Ee
+(https://ropsten.etherscan.io/address/0xB1126df0c32Db5dd98E05aA32cE452584414c4Ee)
 
 ## Additional notes
 1. The unit tests had to be adadpted to the newer versions of Solidity
